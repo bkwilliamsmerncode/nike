@@ -16,7 +16,8 @@ const SuperQuality = () => {
   <p className='mt-4 lg:max-w-lg info-text'>Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experiance, providing you with unmatched quality, innovation, and a touch of elegance.</p>
   <p className="mt-6 lg:max-w-lg info-text">Our dedication to detail and excellence ensures your satisfaction</p>
   <div className="mt-11 ">
- <Button label="View details" /> 
+    <a href="https://www.nike.com/w/sale-3yaep?cp=38695907838_search_-nike%20sale-g-19646935901-144435113503-e-c&dplnk=member&gad_source=1&gclid=CjwKCAiA5Ka9BhB5EiwA1ZVtvGUjdaphQSPxhipHuRAJwGBZeh_LhhzWfc9EGkAk95y-xrliWYYYoBoChTAQAvD_BwE&gclsrc=aw.ds" target="blank">
+ <Button label="View details" /> </a>
   </div>
  
 </div>
