@@ -22,7 +22,8 @@ const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
   <span className='text-coral-red inline-block mt-3'>Nike</span> Shoes
   </h1>
   <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>Discover stylish Nike arrivals, quality comfort, and innovation for your active life.</p>
-  <Button label="Shop now" iconURL={arrowRight}/> 
+  <a href="https://www.nike.com/?cp=41180663293_search_-nike-g-20300414621-152206248604-e-c&dplnk=member&gad_source=1&gclid=CjwKCAiA5Ka9BhB5EiwA1ZVtvBTG7lXSBbRjrjOL9BhFBoH8G-ehFhxh4ymf40YiHEpjp0_McYDxjBoCrfUQAvD_BwE&gclsrc=aw.ds" target='blank'>
+  <Button label="Shop now" iconURL={arrowRight}/> </a>
  <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
 {statistics.map((stat) => (
   <div key={stat.label}>

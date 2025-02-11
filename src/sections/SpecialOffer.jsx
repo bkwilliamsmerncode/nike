@@ -17,12 +17,14 @@ className='object-contain w-full' />
   <p className='mt-4 lg:max-w-lg info-text'>Embark on a shopping journey that redefines your experiance with unbeatable deals. From premier selections to incredible savings, we offer unparalleled value that sets us apart.</p>
   <p className="mt-6 lg:max-w-lg info-text">Navigate a realm of possibilities designed to fullfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional.</p>
   <div className="mt-11 flex flex-wrap gap-4">
- <Button label="View Details" />
- <Button label="Learn More"
+    <a href="https://www.nike.com/w/mens-sale-3yaepznik1" target='blank'> <Button label="View Details" /></a>
+    <a href="https://www.nike.com/w/mens-sale-3yaepznik1" target='blank'> <Button label="Learn More"
  borderColor="border-slate-gray"
  backgroundColor="bg-white"
  textColor="text-slate-gray"
- /> 
+ /> </a>
+
+
   </div>
  
 </div>
