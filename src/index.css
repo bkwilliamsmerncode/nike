@@ -5,6 +5,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
+body {
+  @apply overflow-y-scroll; /* Enables scrolling but hides scrollbar */
+}
+
+::-webkit-scrollbar {
+  display: none; /* Hides scrollbar for WebKit browsers (Chrome, Safari) */
+}
+
 * {
   margin: 0;
   padding: 0;
