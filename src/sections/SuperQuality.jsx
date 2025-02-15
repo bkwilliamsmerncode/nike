@@ -1,38 +1,47 @@
-import Button from "../components/Button"
-import { shoe8 } from '../assets/images'
-
+import Button from "../components/Button";
+import { shoe8 } from "../assets/images";
 
 const SuperQuality = () => {
   return (
- <section id='about-us'
- className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
- 
-<div className="flex flex-1 flex-col">
-<h2 className='font-palanquin text-4xl capitalize font-bold lg:max-w-lg'>
-  We Provide You 
-  <span className='text-coral-red'> Super</span>
-  <span className='text-coral-red'> Quality</span> Shoes
-  </h2>
-  <p className='mt-4 lg:max-w-lg info-text'>Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experiance, providing you with unmatched quality, innovation, and a touch of elegance.</p>
-  <p className="mt-6 lg:max-w-lg info-text">Our dedication to detail and excellence ensures your satisfaction</p>
-  <div className="mt-11 ">
-    <a href="https://www.nike.com/w/sale-3yaep?cp=38695907838_search_-nike%20sale-g-19646935901-144435113503-e-c&dplnk=member&gad_source=1&gclid=CjwKCAiA5Ka9BhB5EiwA1ZVtvGUjdaphQSPxhipHuRAJwGBZeh_LhhzWfc9EGkAk95y-xrliWYYYoBoChTAQAvD_BwE&gclsrc=aw.ds" target="blank">
- <Button label="View details" /> </a>
-  </div>
- 
-</div>
+    <section
+      id="about-us"
+      className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
+    >
+      <div className="flex flex-1 flex-col">
+        <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
+          We Provide You
+          <span className="text-coral-red"> Super</span>
+          <span className="text-coral-red"> Quality</span> Shoes
+        </h2>
+        <p className="mt-4 lg:max-w-lg info-text">
+          Ensuring premium comfort and style, our meticulously crafted footwear
+          is designed to elevate your experiance, providing you with unmatched
+          quality, innovation, and a touch of elegance.
+        </p>
+        <p className="mt-6 lg:max-w-lg info-text">
+          Our dedication to detail and excellence ensures your satisfaction
+        </p>
+        <div className="mt-11 ">
+          <a
+            href="https://www.nike.com/w/sale-3yaep?cp=38695907838_search_-nike%20sale-g-19646935901-144435113503-e-c&dplnk=member&gad_source=1&gclid=CjwKCAiA5Ka9BhB5EiwA1ZVtvGUjdaphQSPxhipHuRAJwGBZeh_LhhzWfc9EGkAk95y-xrliWYYYoBoChTAQAvD_BwE&gclsrc=aw.ds"
+            target="blank"
+          >
+            <Button label="View details" />{" "}
+          </a>
+        </div>
+      </div>
 
-<div className="flex-1 flex justify-center items-center">  
-  <img src={shoe8}
-  alt="shoe 8"
-  width={570}
-  height={522}
-  className="object-contain"
-  /> 
-</div>
+      <div className="flex-1 flex justify-center items-center">
+        <img
+          src={shoe8}
+          alt="shoe 8"
+          width={570}
+          height={522}
+          className="object-contain"
+        />
+      </div>
+    </section>
+  );
+};
 
- </section>
-  )
-}
-
-export default SuperQuality
+export default SuperQuality;
